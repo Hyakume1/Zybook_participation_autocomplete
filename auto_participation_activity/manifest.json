@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "auto_participation_activity",
+  "version": "1.0",
+  "description": "Clicks every radio button on the current page.",
+  "permissions": ["activeTab", "scripting", "offscreen"],
+  "action": {
+    "default_title": "Click all radio buttons"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
